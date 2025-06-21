@@ -22,6 +22,11 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+#### `ModuleNotFoundError: No module named 'corsheaders'` 에러가 발생한다면 다음 명령어 입력
+```
+pip install django-cors-headers
+```
+
 ### 관리자 계정 만들기
 
 ```
